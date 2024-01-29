@@ -33,5 +33,16 @@ public class Program
         Console.WriteLine($"\nMedida com oito casas decimais: {medida:F8}");
         Console.WriteLine($"Arredondado (três casas decimais): {medida:F3}");
         Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture));
+
+        Console.WriteLine("Operadores de atribuição");
+        int a = 10;
+        int b = a++;
+        Console.WriteLine(a);
+        Console.WriteLine(b);
+
+        int a1 = 10;
+        int b1 = ++a;
+        Console.WriteLine(a1);
+        Console.WriteLine(b1);
     }
 }
