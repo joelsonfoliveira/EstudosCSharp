@@ -41,7 +41,7 @@ public class Program
         Console.WriteLine(b);
 
         int a1 = 10;
-        int b1 = ++a;
+        int b1 = ++a1;
         Console.WriteLine(a1);
         Console.WriteLine(b1);
     }
